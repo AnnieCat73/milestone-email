@@ -13,7 +13,7 @@
 
 ## Overview
 
-A responsive promotional email without media queries
+A responsive milestone email without media queries. Media queries only used for enhancements for email clients that support them.
 
 ### The challenge
 
@@ -23,7 +23,7 @@ support and for those that do NOT support modern CSS, like media queries. I am u
 
 ### Screenshot
 
-![](./images/)
+![](./images/milestone-full.png)
 
 ### Links
 
@@ -54,7 +54,7 @@ support and for those that do NOT support modern CSS, like media queries. I am u
 - For email clients that do not support modern CSS I use Ghost tables which are restrictive table layouts for Outlook email clients
 - Divs, max-width and display:inline-block are used for layouts with 2 and more columns. For a single column layout I use tables
 - For 2 columns and more I also have a nested div inside each column for padding. This is applied to the ghost table cells for Outlook
-- Use of a spacer div to create space between sections
+- Use of a spacer div and/or td to create space between sections
 - Desktop-first workflow
 
 ### What I learned
