@@ -15,10 +15,15 @@
 
 A responsive milestone email without media queries. Media queries only used for enhancements for email clients that support them.
 
+I have tested the email on 70 plus different devices and email clients. The email works fine in the majority of the email clients.
+
 Please note I am using 2 gifs in the email and they are not supported in Outlook 2007-2019. They will look distorted if viewed from these
 email clients.
 
 Occasionally I have noticed a faint straight line going through the footer section in Outlook. I have looked into this and there is no proper fix for this. It has all to do with how Outlook renders your email when you open it. Sometimes it renders it well but occasionally you may see this faint line.
+
+The email works well in dark mode for the majority of email clients that support dark mode. Only issue is that the buttons will not show up
+dark mode for macOS Mojave and macOS Big Sur. I am looking into fixing this issue.
 
 ### The challenge
 
