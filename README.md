@@ -37,7 +37,7 @@ support and for those that do NOT support modern CSS, like media queries. I am u
 
 ### Links
 
-- Live Site URL: https://
+- Live Site URL: https://devannie-milestone-email.pages.dev/
 
 ## My process
 
@@ -48,7 +48,7 @@ support and for those that do NOT support modern CSS, like media queries. I am u
 - Made it look as good as possible for dark mode
 - I used Desktop-first approach as that's the best practice for email development
 - I tested my email using Email on Acid
-- I uploaded the email the web via Cloudflare
+- I uploaded the email to the web via Cloudflare
 
 ### Built with
 
