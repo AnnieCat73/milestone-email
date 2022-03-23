@@ -17,12 +17,12 @@ A responsive milestone email without media queries. Media queries only used for 
 
 I have tested the email on 70 plus different devices and email clients. The email works fine in the majority of the email clients.
 
-Please note I am using 2 gifs in the email and they are not supported in Outlook 2007-2019. They will look distorted if viewed from these
+Please note that I am using 2 gifs in the email and they are not supported in Outlook 2007-2019. They will look distorted if viewed from these
 email clients.
 
-Occasionally I have noticed a faint straight line going through the footer section in Outlook. I have looked into this and there is no proper fix for this. It has all to do with how Outlook renders your email when you open it. Sometimes it renders it well but occasionally you may see this faint line.
+Occasionally I have noticed a faint horizontal line going through the footer section in Outlook. I have looked into this and there is no proper fix for this. It has all to do with how Outlook renders your email when you open it. Sometimes it renders it well but occasionally you may see this faint line.
 
-The email works well in dark mode for the majority of email clients that support dark mode. Only issue is that the buttons will not show up
+The email works well in dark mode for the majority of email clients that support dark mode. Please note the buttons will not show up in
 dark mode for macOS Mojave and macOS Big Sur. I am looking into fixing this issue.
 
 ### The challenge
@@ -48,7 +48,7 @@ support and for those that do NOT support modern CSS, like media queries. I am u
 - Made it look as good as possible for dark mode
 - I used Desktop-first approach as that's the best practice for email development
 - I tested my email using Email on Acid
-- I uploaded the email the web via
+- I uploaded the email the web via Cloudflare
 
 ### Built with
 
@@ -69,7 +69,7 @@ support and for those that do NOT support modern CSS, like media queries. I am u
 
 ### What I learned
 
-Please note I am using 2 gifs in the email and they are not supported in Outlook 2007-2019.
+Please note that I am using 2 gifs in the email and they are not supported in Outlook 2007-2019.
 
 When testing I had some issues with the gifs becoming too big for the mobile layout in Outlook. This is because it was displaying the gifs at full size, i.e a width of 100% as I had originally set my images to display in the inline css for the gifs. To solve this I had to just leave the size I wanted in the width HTML attribute that Outlook will display and move the inline gif related css into a media query.
 
